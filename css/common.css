@@ -7,6 +7,7 @@ selector {
 
 */
 
-.header{
-    color: indigo;
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-color: darkblue;
 }
