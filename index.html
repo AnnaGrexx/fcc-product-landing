@@ -3,34 +3,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Lviv</title>
+    <link rel="shortcut icon" href="img/swallow_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Swallow - Travel agency</title>
     
     <head>
-    <header id="header"> 
-        <h1>Lviv</h1>
-        <img id="header-img" src="img/fcc.jpg" alt="Lviv">
-    
-        <nav id="nav-bar">
-            <a href="#excursions" class="nav-link">Excursions</a>
-            <a href="#cafe" class="nav-link">Cafe</a>
-            <a href="#intertainment" class="nav-link">Intertainment</a>
-              </nav>
-    </header>
-
-</head>
-<body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    
-    <section id="excursions"></section>
-    <section id="cafe"></section>
-    <section id="intertainment"></section>
-    <iframe src="https://www.youtube.com/watch?v=pmoYP_QvGsM" id="video" frameborder="0"></iframe>
-</body>
+    <header id="header" class="header"> 
+      <div class="container header-container">
+          <div class="header__image_logotype">
+              <img id="header-img" src="img/swallow_icon.png" alt="Swallow logotype"
+          </div>
+          <nav id="header-nav">
+              <a class="nav-link" href="#ukraine">Ukraine</a>
+              <a class="nav-link" href="#europe">Europe</a>
+              <a class="nav-link" href="#asia">Asia</a>
+          </nav>
+      </div>
+      </header>
+      <main class="main container">
+          <section id="ukraine" class="main_ukraine"
+          <div class="ukraine-container">
+              <div class="ukraine-video">
+                <h2 class="ukraine-title">
+                    Ukraine
+                </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/18vr4oiwO7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <section id="europe" class="main_europe"
+          <div class="europe-container">
+              <div class="europe-img">
+                <h2 class="europe-title">
+                    Europe
+                </h2>
+                <img class="europe-img" src="img/main_europe_img.webp" alt="Europe"
+            </div>
+          </div>
+          <section id="asia" class="main_asia"
+          <div class="asia-container">
+              <div class="asia-img">
+                <h2 class="asia-title">
+                    Asia
+                </h2>
+                <img class="asia-img" src="img/main_asia_img.webp" alt="Asia">
+          </div>
+          </div>
+        </main>
 <footer>
+<section id="info" class="info-tourism">
+    <h2 class="main-info">Travel wishes</h2>
+</section>
     <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="text" id="text" name="text" placeholder="Our email" required>
+        <input type="text" id="text" name="text" placeholder="Email" required>
         <br>
-        <input type="email" id="email" name="email" placeholder="For yours questions">
+        <input type="email" id="email" name="email" placeholder="For yours wishes">
         <input type="submit" id="submit" value="Submit" class="submit">
     </form>
 </footer>
